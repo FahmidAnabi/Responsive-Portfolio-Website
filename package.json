@@ -1,0 +1,22 @@
+{
+    "name": "responsive-portfolio-website",
+    "version": "1.0.0",
+    "description": "A simple portfolio website which is also responsive for smaller devices. This site is created with html5, css3 , sass and little vanila javascript. no framework is used in this project.",
+    "main": " ",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FahmidAnabi/Responsive-Portfolio-Website.git"
+    },
+    "author": "Fahmid Anabi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/FahmidAnabi/Responsive-Portfolio-Website/issues"
+    },
+    "homepage": "https://github.com/FahmidAnabi/Responsive-Portfolio-Website#readme",
+    "dependencies": {
+        "node-sass": "^4.13.0"
+    }
+}

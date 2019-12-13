@@ -5,7 +5,6 @@
     top: 35px;
     cursor: pointer;
     @include easeOut;
-
     .btn-line {
         width: 28px;
         height: 3px;
@@ -13,15 +12,9 @@
         background: set-text-color($primary-color);
         @include easeOut;
     }
-
     // Rotate into x with menu lines
     &.close {
         transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-
         .btn-line {
             //line 1 rotate
             &:nth-child(1) {
@@ -46,11 +39,9 @@
     width: 100%;
     opacity: 0.9;
     visibility: hidden;
-
     &.show {
         visibility: visible;
     }
-
     &-branding,
     &-nav {
         display: flex;
@@ -62,7 +53,6 @@
         height: 100vh;
         overflow: hidden;
     }
-
     &-nav {
         margin: 0;
         padding: 0;
@@ -70,24 +60,20 @@
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
-
         &.show {
             //slide in from top
             transform: translate3d(0, 0, 0);
         }
     }
-
     // Branding side
     &-branding {
         background: $primary-color;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
-
         &.show {
             //slide in from bottom
             transform: translate3d(0, 0, 0);
         }
-
         .portrait {
             width: 250px;
             height: 250px;
@@ -96,11 +82,9 @@
             border: solid 3px $primary-color;
         }
     }
-
     .nav-item {
         transform: translate3d(600px, 0, 0);
         @include easeOut;
-
         &.show {
             //slide in from right
             transform: translate3d(0, 0, 0);
@@ -109,7 +93,6 @@
             color: $secondary-color;
         }
     }
-
     .nav-link {
         display: inline-block;
         position: relative;
@@ -120,7 +103,6 @@
         color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
-
         &:hover {
             color: $secondary-color;
         }

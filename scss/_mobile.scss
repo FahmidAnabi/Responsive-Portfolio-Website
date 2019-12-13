@@ -1,14 +1,14 @@
 //wide screen
 
 @include mediaXl {
-    .projects{
+    .projects {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
 //desktop
 @include mediaLg {
-    .projects{
+    .projects {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -44,19 +44,16 @@
             background: url("../img/portrait_small.jpg");
         }
     }
-
-    .about-info{
-        grid-template-areas: 
-        'bioimage'
-        'bio'
-        'job1'
-        'job2'
-        'job3';
-
+    .about-info {
+        grid-template-areas:
+            "bioimage"
+            "bio"
+            "job1"
+            "job2"
+            "job3";
         grid-template-columns: 1fr;
     }
-
-    .projects{
+    .projects {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -66,8 +63,7 @@
     main#home h1 {
         margin-top: 10vh;
     }
-
-    .projects{
+    .projects {
         grid-template-columns: 1fr;
     }
 }

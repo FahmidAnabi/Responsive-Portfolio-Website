@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "A simple portfolio website which is also responsive for smaller devices. This site is created with html5, css3 , sass and little vanila javascript. no framework is used in this project.",
     "main": " ",
-    "homepage":"https://fahmidanabi.github.io/Responsive-Portfolio-Website/",
+    "homepage": "https://github.com/FahmidAnabi/Responsive-Portfolio-Website#readme",
     "scripts": {
         "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-        "deploy":"gh-pages -d dist"
+        "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
@@ -17,8 +17,8 @@
     "bugs": {
         "url": "https://github.com/FahmidAnabi/Responsive-Portfolio-Website/issues"
     },
-    "homepage": "https://github.com/FahmidAnabi/Responsive-Portfolio-Website#readme",
     "dependencies": {
+        "gh-pages": "^2.1.1",
         "node-sass": "^4.13.0"
     }
 }
